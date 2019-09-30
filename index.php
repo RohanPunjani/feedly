@@ -13,7 +13,6 @@
 		<div class="form-container sign-up-container">
 			<form action="#">
 				<h1>Create Account</h1>
-				<span>Register using Email</span>
 				<input type="text" placeholder="Name" />
 				<input type="email" placeholder="Email" />
 				<input type="password" placeholder="Password" />
@@ -27,6 +26,7 @@
 				<input type="password" placeholder="Password" />
 				<a href="#">Forgot your password?</a>
 				<button>Sign In</button>
+				<button class="ghost-black" id="committeeSignIn">committee?</button>
 			</form>
 		</div>
 		<div class="overlay-container">
@@ -37,7 +37,7 @@
 					<button class="ghost" id="signIn">Sign In</button>
 				</div>
 				<div class="overlay-panel overlay-right">
-					<h1>Hello, Friend!</h1>4
+					<h1>Hello, Friend!</h1>
 					<p>Enter your personal details and start journey with us</p>
 					<button class="ghost" id="signUp">Sign Up</button>
 				</div>
