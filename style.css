@@ -70,6 +70,10 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
+button.ghost-black{
+    margin-top: 20px;
+}
+
 form {
 	background-color: #FFFFFF;
 	display: flex;
